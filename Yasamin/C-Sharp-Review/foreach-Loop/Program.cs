@@ -4,6 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var names = new List<string>() { "John", "Tom", "Peter" };
+        foreach (string name in names)
+        {
+            Console.WriteLine(name);
+        }
     }
 }
